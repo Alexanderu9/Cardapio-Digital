@@ -50,38 +50,38 @@
   color: #ffcc00;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.informacoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.informacoes-esquerda {
+  flex: 1;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.informacoes-esquerda h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 
-.card {
-  padding: 2em;
+.informacoes-esquerda p {
+  font-size: 1.2rem;
+  color: #ccc;
 }
 
-.read-the-docs {
-  color: #888;
+.informacoes-direita {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.informacoes-direita img {
+  width: 100%;
+  height: auto;
+  max-width: 500px; 
+  border-radius: 8px;
 }

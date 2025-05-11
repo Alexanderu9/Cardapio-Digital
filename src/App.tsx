@@ -1,5 +1,6 @@
 
 import CardapioDigital from './componentes/CardapioDigital'
+import Informacoes from './componentes/informacoes'
 import'./App.css'
 
 
@@ -10,7 +11,7 @@ function App() {
     <>
     <div className="container">
 <CardapioDigital />
-
+<Informacoes />
     </div>
     </>
   )
