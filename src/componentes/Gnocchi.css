@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.gnocchi-header h3 {
+.gnocchi-header h3, .gnocchi-header h2 {
   font-size: 2rem;
   color: #fff;
   margin-bottom: 2rem;
@@ -46,3 +46,22 @@
   text-decoration: underline;
   margin-bottom: 0.5rem;
 }
+
+.molhos-lista li {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-align: left;
+font-size: 25px;
+}
+
+.gnocchi-itens-lista li img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.gnocchi-itens-lista li:hover {
+  color: #d4c114;
+
+}
+

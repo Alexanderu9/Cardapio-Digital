@@ -19,7 +19,8 @@ html, body {
   grid-template-areas: 
     "cardapio cardapio cardapio"
     "info info info"
-    ". gnocchi .";
+    ". gnocchi ."
+    ". molhos .";
   height: 100vh;
   gap: 10px;
 }
@@ -38,6 +39,12 @@ html, body {
 
 .gnocchi {
   grid-area: gnocchi;
+  color: white;
+  padding: 1rem;
+}
+
+.molhos {
+  grid-area: molhos;
   color: white;
   padding: 1rem;
 }
