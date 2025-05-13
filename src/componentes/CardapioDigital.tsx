@@ -1,4 +1,4 @@
-import '../App.css'
+import './CardapioDigital.css'
 
 function CardapioDigital () {
     return (
