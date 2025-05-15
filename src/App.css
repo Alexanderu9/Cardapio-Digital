@@ -20,7 +20,8 @@ html, body {
     "cardapio cardapio cardapio"
     "info info info"
     ". gnocchi ."
-    ". molhos .";
+    ". molhos ."
+    ". pastas .";
   height: 100vh;
   gap: 10px;
 }
@@ -45,6 +46,12 @@ html, body {
 
 .molhos {
   grid-area: molhos;
+  color: white;
+  padding: 1rem;
+}
+
+.pastas {
+  grid-area: pastas;
   color: white;
   padding: 1rem;
 }

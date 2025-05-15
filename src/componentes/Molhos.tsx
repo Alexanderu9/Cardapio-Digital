@@ -9,20 +9,20 @@ function Molhos() {
                 </div>
                 <ul className='gnocchi-itens-lista'>
                     <li>
-                        <p>Alla Puttanesca</p>
-                        <img src="./Puttanesca.jpeg" alt="Alla Puttanesca" width={200} />
+                        <p className='molhoHover'>Alla Puttanesca</p>
+                        <img className='imagem' src="./Puttanesca.jpeg" alt="Alla Puttanesca" width={200} />
                      </li>
                     <li>
-                        <p>Al Pesto di Basilico</p>
-                        <img src="./Basilico.jpeg" alt="Al Pesto di Basilico" width={200} />
+                        <p className='molhoHover'>Al Pesto di Basilico</p>
+                        <img className='imagem' src="./Basilico.jpeg" alt="Al Pesto di Basilico" width={200} />
                     </li>
                     <li>
-                        <p>Cacio e Pepe</p>   
-                        <img src="./Pepe.jpeg" alt="Cacio e Pepe" width={200} />          
+                        <p className='molhoHover'>Cacio e Pepe</p>   
+                        <img className='imagem' src="./Pepe.jpeg" alt="Cacio e Pepe" width={200} />          
                     </li>
                     <li>
-                        <p>Alla Matriciana</p>
-                        <img src="./Matriciana.jpeg" alt="Alla Matriciana" width={200} />
+                        <p className='molhoHover'>Alla Matriciana</p>
+                        <img className='imagem' src="./Matriciana.jpeg" alt="Alla Matriciana" width={200} />
                     </li>
                 </ul>
                 </section>

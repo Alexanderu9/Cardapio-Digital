@@ -8,7 +8,7 @@
   font-size: 2rem;
   color: #fff;
   margin-bottom: 2rem;
-  text-decoration: underline;
+  border-bottom: 5px solid #d4c114;
 }
 
 .gnocchi-itens-lista {
@@ -32,6 +32,31 @@
 .gnocchi-item:hover {
   transform: scale(1.03);
   background: rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+}
+
+.molhoHover {
+  padding: 1rem;
+  color: #fff;
+  font-size: 20px;
+}
+
+.molhoHover:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  color: #d4c114;
+  border-bottom: #d4c114 solid 5px;
+  
+}
+
+.imagem {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.imagem:hover {
+  cursor: pointer;
 }
 
 .gnocchi-item img {

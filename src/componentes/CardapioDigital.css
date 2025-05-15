@@ -37,5 +37,6 @@
   
   .menu li:hover {
     color: #ffcc00;
+    border-bottom: 5px solid #d4c114;
   }
   

@@ -19,7 +19,7 @@
   .informacoes-esquerda h2 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-    text-decoration: underline;
+    border-bottom: 5px solid #d4c114;
     
   }
   
