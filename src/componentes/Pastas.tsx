@@ -16,7 +16,7 @@ type Prato = {
   function Pastas(props: Props) {
     return (
       <>
-        <h4>{props.titulo}</h4>
+        <h4 className='Pastas-header'>{props.titulo}</h4>
         <ul className="Pastas-itens-lista">
           {props.massas.map((prato, index) => (
             <li className="Pastas-item" key={index}>

@@ -1,24 +1,17 @@
-.Pastas {
+.bebidas {
     padding: 2rem;
     border-radius: 20px;
     text-align: center;
   }
   
-  .Pastas-header h3, .Pastas-header h2 {
-    font-size: 2rem;
-    color: #fff;
-    margin-bottom: 2rem;
-    text-decoration: underline;
-  }
-  
-  .Pastas-header {
+  .bebidas-header {
     font-size: 2rem;
     color: #fff;
     margin-bottom: 2rem;
     border-bottom: 5px solid #d4c114;
   }
-
-  .Pastas-itens-lista {
+  
+  .bebidas-itens-lista {
     display: grid;
     grid-template-columns: repeat(3, minmax(190px, 1fr));
     gap: 20px;
@@ -27,47 +20,48 @@
     margin: 0;
   }
   
-  .Pastas-item {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8));
-    border-radius: 20px;
+  .bebidas-item {
     padding: 1rem;
     color: #fff;
-    box-shadow: 0 4px 10px rgba(7, 7, 7, 0.3);
     transition: transform 0.2s ease;
   }
   
-  .Pastas-item:hover {
+  .bebidas-item ul li {
+list-style: none;
+  }
+
+  .bebidas-item:hover {
     transform: scale(1.03);
-    background: rgba(255, 255, 255, 0.15);
+    color: #d4c114;
     cursor: pointer;
   }
   
-  .Pastas-item img {
+  .bebidas-item img {
     width: 100%;
     border-radius: 15px;
     margin-bottom: 1rem;
 
   }
 
-  .Pastas-item p {
+  .bebidas-item p {
     font-size: 1.0rem;
     color: #cccccc;
     text-align: left;
     justify-content: space-around;
   }
 
-  .Pastas-item p:hover {
-    transform: scale(1.03);
+  .bebidas-item p:hover {
+    
     color: #d4c114;
     cursor: pointer;
   }
 
-  .Pastas-item h5 {
+  .bebidas-item h5 {
     font-size: 1.2rem;
     color: #fff;
     margin-bottom: 0.5rem;
     border-bottom: 5px solid #d4c114;
-    text-align: center;
+    text-align: left;
   }
   
   .nome {
@@ -84,13 +78,13 @@
   font-size: 25px;
   }
   
-  .Pastas-itens-lista li img {
+  .bebidas-itens-lista li img {
     width: 100%;
     border-radius: 15px;
     margin-bottom: 1rem;
   }
   
-  .Pastas-itens-lista li:hover {
+  .bebidas-itens-lista li:hover {
     color: #d4c114;
   
   }

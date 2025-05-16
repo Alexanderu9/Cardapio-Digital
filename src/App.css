@@ -21,7 +21,8 @@ html, body {
     "info info info"
     ". gnocchi ."
     ". molhos ."
-    ". pastas .";
+    ". pastas ."
+    "bebidas bebidas bebidas";
   height: 100vh;
   gap: 10px;
 }
@@ -52,6 +53,12 @@ html, body {
 
 .pastas {
   grid-area: pastas;
+  color: white;
+  padding: 1rem;
+}
+
+.bebidas {
+  grid-area: bebidas;
   color: white;
   padding: 1rem;
 }

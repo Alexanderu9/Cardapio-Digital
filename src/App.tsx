@@ -5,19 +5,19 @@ import Gnocchi from './componentes/Gnocchi'
 import Molhos from './componentes/Molhos'
 import Pastas from './componentes/Pastas'
 import'./App.css'
+import Bebidas from './componentes/Bebidas'
 
 
 function App() {
 
 
   return (
-    <>
 <div className="container">
   <div className="cardapio"><CardapioDigital /></div>
   <div className="info"><Informacoes /></div>
   <div className="gnocchi"><Gnocchi /></div>
   <div className="molhos"><Molhos /></div>
-  <div className='pastas'><Pastas titulo="Menu de Massas" massas={[
+  <div className="pastas"><Pastas titulo="Menu de Massas" massas={[
         {
           nome: "Espaguete:",
           ilustracao: "./Espaguete.jpeg",
@@ -54,9 +54,23 @@ function App() {
           valor: "R$ 65,00",
           molhos: ["Alla Puttanesca", " Alla Matriciana"]
         },
-      ]} /></div>
+      ]} />
+      </div>
+      <div className="bebidas"> <Bebidas titulo='Bebidas' agua='Agua' Menu={[
+        {
+          tipo: "Refrigerante:",
+          nome1: "Coca-Cola = R$ 5,00",
+          nome2: "Guarana = R$ 5,00",
+          nome3: "Sprite = R$ 4,00"
+        },
+        {
+          tipo: "Sucos:",
+          nome1: "Morango = R$ 15,00",
+          nome2: "Laranja = R$ 10,00",
+          nome3: "Uva = R$ 15,00"
+        },
+      ]} /> </div>
   </div>
-    </>
   )
 }
 
