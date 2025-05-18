@@ -22,7 +22,8 @@ html, body {
     ". gnocchi ."
     ". molhos ."
     ". pastas ."
-    "bebidas bebidas bebidas";
+    "bebidas bebidas bebidas"
+    "rodape rodape rodape";
   height: 100vh;
   gap: 10px;
 }
@@ -63,4 +64,8 @@ html, body {
   padding: 1rem;
 }
 
-
+.rodape {
+  grid-area: rodape;
+  color: white;
+  padding: 1rem;
+}

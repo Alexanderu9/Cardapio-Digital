@@ -4,6 +4,7 @@ import Informacoes from './componentes/Informacoes'
 import Gnocchi from './componentes/Gnocchi'
 import Molhos from './componentes/Molhos'
 import Pastas from './componentes/Pastas'
+import Rodape from './componentes/rodape'
 import'./App.css'
 import Bebidas from './componentes/Bebidas'
 
@@ -70,6 +71,7 @@ function App() {
           nome3: "Uva = R$ 15,00"
         },
       ]} /> </div>
+      <div className="rodape"><Rodape /></div>
   </div>
   )
 }
